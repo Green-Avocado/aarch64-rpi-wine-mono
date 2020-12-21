@@ -11,7 +11,7 @@ https://archlinuxarm.org/platforms/armv8/broadcom/raspberry-pi-4
 
 Replace step 5 with:
 ```
-cat aarch64_custom_partaa aarch64_custom_partab aarch64_custom_partac > aarch64_custom.tar.gz
+cat aarch64_custom* > aarch64_custom.tar.gz
 bsdtar -xpf aarch64_custom.tar.gz -C root
 sync
 ```
